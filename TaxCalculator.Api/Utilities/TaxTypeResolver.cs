@@ -10,6 +10,8 @@ namespace TaxCalculator.Api.Utilities
             switch (postalCode)
             {
                 case "7441":
+                    return TaxCalculationType.Progressive;
+
                 case "1000":
                     return TaxCalculationType.Progressive;
 
